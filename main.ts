@@ -36,5 +36,5 @@ function setListeners():void{
 
 renderSeriesInTable(dataSeries);
 setSerieCard(dataSeries[0]);
-setListeners();
 document.getElementById('avgSeasons')!.innerHTML = "Average Seasons: " + getSeasonsAVG(dataSeries).toString();
+setListeners();
